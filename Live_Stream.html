@@ -1,0 +1,43 @@
+<?php
+  function webControl(Autonomous, value)
+    {
+	  if (Autonomous == True):
+		exec('/home/pi/Desktop/ARCAR/close.py')
+		exec('/home/pi/Desktop/ARCAR/arduinoConnect.py', $output, $return_val)
+	  else
+	    exec('/home/pi/Desktop/ARCAR/webControl.py $value');
+		
+	}
+?>
+
+<html>
+ <body>
+  <var Autonomous = True ></var>
+  <div style="text-align:center">
+  <h1>Raspberry Pi Car</h1>
+  <table>
+   <tr>
+    <td>
+     <img src="/?action=stream" />
+    </td>  
+    <td>
+     <center>
+      <img src="forward.jpg" id="f" onmousedown="src = 'forward_clicked.jpg', webControl(Autonomous, f), Autonomous = False" onmouseup="src = 'forward.jpg', webControl(Autonomous, s)">
+     </center>
+     <img src="left.jpg" id="l" onmousedown="src = 'left_clicked.jpg', webControl(Autonomous, l), Autonomous = False" onmouseup="src = 'left.jpg', webControl(Autonomous, s)">
+     <img src="stop.jpg" id="s" onmousedown="src = 'stop_clicked.jpg', webControl(Autonomous, s), Autonomous = False" onmouseup="src = 'stop.jpg', webControl(Autonomous, s)">
+     <img src="right.jpg" id="r" onmousedown="src = 'right_clicked.jpg', webControl(Autonomous, r), Autonomous = False" onmouseup="src = 'right.jpg', webControl(Autonomous, s)">
+     <br>
+     <center>
+      <img src="reverse.jpg" id="rev" onmousedown="src = 'reverse_clicked.jpg', webControl(Autonomous, rev), Autonomous = False" onmouseup="src = 'reverse.jpg', webControl(Autonomous, s)">
+     </center>
+      <br>
+     <center>
+      <img src="auto.jpg" id="auto" onclick="src = 'auto_clicked.jpg', webControl(Autonomous, auto), Autonomous = True" ondblclick="src='auto.jpg', webControl(Autonomous, s), Autonomous = False">
+     </center>
+    </td>
+   </tr>
+  </table>
+ </div>
+ </body>
+</html>
