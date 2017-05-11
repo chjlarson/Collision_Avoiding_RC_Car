@@ -4,7 +4,7 @@
 # Collision_Avoiding_RC_Car
 
 ## DETAILS: ##
-** This was my senior capstone I did while I was getting my BSCS. **
+This was my senior capstone I did while I was getting my BSCS.
 
 > This project had two main parts. The initial part of the project was
 > to program a remote-controlled car to be controlled by a variety of
@@ -18,7 +18,6 @@
 
   
 ## ORIGINAL PARTS LIST: ##
-## -------------------- ##
 
  - Red Cat Racing 1/10 Volcano Racing truck
  - Raspberry Pi 2
