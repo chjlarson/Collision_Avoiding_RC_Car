@@ -72,5 +72,5 @@ This was my senior capstone I did while I was getting my BSCS.
 	 - Web Controls
     
 ## CHANGE LOG: ##
-   Replaced Raspberry Pi 2 with Raspberry Pi 3
-   Removed Wi-Fi Adapter and Bluetooth Adapter - Integrated into Raspberry Pi 3
+ - Replaced Raspberry Pi 2 with Raspberry Pi 3
+ - Removed Wi-Fi Adapter and Bluetooth Adapter - Integrated into Raspberry Pi 3
