@@ -16,6 +16,8 @@ def CollisionAvoidance(sensorData, ser, car, started):
   leftRightOrient, forwardReverseOrient, upDownOrient = car.getOrientation()
   
   #if the car is not moving, then reverse
+  #***This causes issues when the car has to stop...
+  #***Needs refactoring
   #if forwardReverseAccel < 0.1:
     #if started:
       #print 'Too close to turn...'
