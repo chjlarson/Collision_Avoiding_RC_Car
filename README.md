@@ -70,7 +70,10 @@ This was my senior capstone I did while I was getting my BSCS.
  - Additional Controllers:
 	 - Voice controls
 	 - Web Controls
-    
+ - Optimize Collsion Avoidance Algorithm
+ - Implement Deep learning into Collision Avoidance Algorithm
+**NOTE:** Deep Learning will be bottlenecked by the processing power of the Raspberry Pi. May require upgrade in the future.
+     
 ## CHANGE LOG: ##
  - Replaced Raspberry Pi 2 with Raspberry Pi 3
  - Removed Wi-Fi Adapter and Bluetooth Adapter - Integrated into Raspberry Pi 3
