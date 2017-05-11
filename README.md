@@ -3,7 +3,7 @@
 
 # Collision_Avoiding_RC_Car
 
-## Heading ##**DETAILS:**
+**DETAILS:
 This was my senior capstone I did while I was getting my BSCS.
 
 > This project had two main parts. The initial part of the project was
@@ -17,10 +17,8 @@ This was my senior capstone I did while I was getting my BSCS.
 > hardware components of the remote-controlled car.
 
   
-## Heading ##**
-
-ORIGINAL PARTS LIST:
---------------------
+**ORIGINAL PARTS LIST: 
+-------------------- 
 
  - Red Cat Racing 1/10 Volcano Racing truck
  - Raspberry Pi 2
@@ -34,10 +32,10 @@ ORIGINAL PARTS LIST:
  - Breadboard
  - Wiring
 
-***NOTE:** Avoided soldering to allow for modularity of the components for future improvements.  
+**NOTE:** Avoided soldering to allow for modularity of the components for future improvements.  
 
-## Heading ##**Files**
-  ***Python Files:***
+## Files ##
+  **Python Files:**
  - _init_.py
  - arduinoConnect.py
  - autonomous.py
@@ -51,7 +49,7 @@ ORIGINAL PARTS LIST:
  - testCar.py
  - turn.py
 
-  ***Shell Script Files:***
+  ** Shell Script Files:**
  - carLauncher.sh
  - checkwifi.sh
  - webLauncher.sh
@@ -62,7 +60,7 @@ ORIGINAL PARTS LIST:
   ***Arduino file:***
  - Motor_Servo_Control.ino
 
-## Heading ##***FUTURE IMPROVEMENTS:***
+## FUTURE IMPROVEMENTS: ##
  - Optimize code
  - Ultrasonic sensor rate of capture change depending on speed. 
 	 - *Helps with power management
@@ -74,6 +72,6 @@ ORIGINAL PARTS LIST:
 	 - Voice controls
 	 - Web Controls
     
-## Heading ##**CHANGE LOG:**
+## CHANGE LOG: ##
    Replaced Raspberry Pi 2 with Raspberry Pi 3
    Removed Wi-Fi Adapter and Bluetooth Adapter - Integrated into Raspberry Pi 3
