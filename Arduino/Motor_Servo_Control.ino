@@ -1,3 +1,9 @@
+// Motor_Servo_Control.ino
+// This is the script for the Arduino Uno to control the turning servo and motor of the remote-controlled car using instructions from
+//    the Raspberry Pi.
+// This program also recieves data from the Ultrasonic sensor and sends it to the Raspberry Pi to be processed and turned into 
+//    instructions to be sent back to the Arduino Uno.
+
 #include <NewPing.h>
 #include <Servo.h>
 
