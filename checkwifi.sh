@@ -1,3 +1,10 @@
+#!/bin/bash
+#checkwifi.sh
+#The Raspberry Pi does not automatically reconnect to a known network if the connection is lost.
+#This script checks to see if the Raspberry Pi can still communicate with the default gateway.
+#This script does not take into account the situation where the defualt gateway is down instead of the Raspberry Pi causing
+#  the loss of the connection. In that event, the Raspberry Pi will continuesly restart its network until the connection is reestablished.
+
 ping -c4 192.168.69.69 > /dev/null
  
 if [ $? != 0 ] 
