@@ -1,3 +1,8 @@
+<!--Live_Stream.html
+This is a webpage dedicated to hosting a live stream of the webcam mounted on the remote-controlled car.
+Additionally, non-functional buttons have been added for future use in allowing for web control of the remote-controlled car.
+-->
+
 <?php
   function webControl(Autonomous, value)
     {
@@ -18,9 +23,11 @@
   <table>
    <tr>
     <td>
+     <!-- The Live Stream -->
      <img src="/?action=stream" />
     </td>  
     <td>
+     <!-- The non-functional buttons -->
      <center>
       <img src="forward.jpg" id="f" onmousedown="src = 'forward_clicked.jpg', webControl(Autonomous, f), Autonomous = False" onmouseup="src = 'forward.jpg', webControl(Autonomous, s)">
      </center>
