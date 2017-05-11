@@ -62,7 +62,7 @@ This was my senior capstone I did while I was getting my BSCS.
 ## FUTURE IMPROVEMENTS: ##
  - Optimize code
  - Ultrasonic sensor rate of capture change depending on speed. 
-	 - *Helps with power management
+	 - Helps with power management
  - Use ultrasonic sensors in the rear to improve reversing.
  - Facial/object-recognition software with the webcam:
 	 - Improve collision avoidance
